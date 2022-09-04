@@ -9,3 +9,19 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+h3 {
+	position: relative;
+	width: 43ch;
+	font-weight: bold;
+	animation: type 5s steps(43), blink 0.5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+}
+
+@keyframes type {
+	0% {
+		width: 0;
+	}
+}
