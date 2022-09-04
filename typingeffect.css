@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+
+body {
+	background: #fff7ee;
+	font-family: Fira Mono;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
